@@ -23,7 +23,7 @@ const MEMORIES = [
   },
   {
     title: "YAY!",
-    body: "You called him right after that — it made Dhivagar so happy 🥹💗",
+    body: "You called him on his birthday that made Dhivagar so happy 🥹💗",
   },
   {
     title: "THANK YOU!",
