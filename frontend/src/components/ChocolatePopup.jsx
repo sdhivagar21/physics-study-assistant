@@ -19,7 +19,7 @@ const MEMORIES = [
   },
   {
     title: "AW...",
-    body: "When Dhivagar visited your home with John, you told him you didn't like John. Dhivagar felt so sad 🥺💔",
+    body: "When Dhivagar visited your home with John, you told him you didn't like Dhivagar. Dhivagar felt so sad 🥺💔",
   },
   {
     title: "YAY!",
