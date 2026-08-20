@@ -7,7 +7,7 @@ import ChocolatePopup from "./components/ChocolatePopup.jsx";
 import HiPopup from "./components/HiPopup.jsx";
 import { uploadFile, sendMessage } from "./api.js";
 
-const STUDENT_NAME = "Kiruthiga";
+const STUDENT_NAME = "Keerthi";
 
 export default function App() {
   const [messages, setMessages] = useState([]);

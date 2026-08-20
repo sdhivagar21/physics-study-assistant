@@ -4,7 +4,7 @@ import { useState } from "react";
 // determined visitor (it's plain client-side JS), but it keeps the page from
 // being wide open to anyone who stumbles on the deployed link. Swap this out
 // once real sign-in is built.
-const SITE_PIN = import.meta.env.VITE_SITE_PIN || "1234";
+const SITE_PIN = import.meta.env.VITE_SITE_PIN || "07.12.2005";
 
 export default function LockScreen({ children }) {
   const [entered, setEntered] = useState("");
@@ -36,17 +36,17 @@ export default function LockScreen({ children }) {
         <h1 className="mb-1 font-display text-lg font-semibold text-ink">
           This one's private
         </h1>
-        <p className="mb-4 text-sm text-muted">Enter the PIN to continue</p>
+        <p className="mb-4 text-sm text-muted">Enter your birthday to continue</p>
         <input
           type="password"
-          inputMode="numeric"
+          inputMode="text"
           value={entered}
           onChange={(e) => {
             setEntered(e.target.value);
             setError(false);
           }}
           className="mb-3 w-full rounded-xl border border-line bg-white px-3 py-2 text-center text-sm focus:border-accent/50 focus:outline-none"
-          placeholder="••••"
+          placeholder="DD.MM.YYYY"
           autoFocus
         />
         {error && <p className="mb-2 text-xs text-accent">That's not it — try again.</p>}
